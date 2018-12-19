@@ -15,15 +15,13 @@ public class EnemyBase : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
     }
 
-
-
     void Start()
     {
         rend.material.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
     }
 
 
-    public virtual void  Update()
+    public virtual void Update()
     {
 
     }

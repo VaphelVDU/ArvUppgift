@@ -16,11 +16,11 @@ public class LaserLogic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*EnemyBase enemy = collision.GetComponent<EnemyBase>();
+        EnemyBase enemy = collision.GetComponent<EnemyBase>();
         if(enemy != null)
         {
- 
-        }*/
+            Destroy(gameObject);
+        }
 
         Destroy(gameObject); 
     }
